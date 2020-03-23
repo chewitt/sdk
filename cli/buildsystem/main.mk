@@ -62,7 +62,7 @@ ifneq ($(MARCH),armv7l)
 ifneq ($(MARCH),armv8l)
 ifneq ($(MARCH),i686)
 ifneq ($(HOSTOS),win)
-CFLAGS += -m64 -mtune=native
+#CFLAGS += -m64 -mtune=native
 endif
 endif
 endif
