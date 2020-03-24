@@ -2,7 +2,7 @@ include buildsystem/func.mk
 
 # Set default flags
 CPPFLAGS := -Iinclude -Isrc -I../libs/
-CFLAGS := -Wall -Werror 
+CFLAGS := -Wall -Werror
 
 ifeq ($(HOSTOS),win)
 CC		:= i686-w64-mingw32.static-gcc
